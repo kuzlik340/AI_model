@@ -1,0 +1,12 @@
+layer_sizes:
+  - 784
+  - 128
+  - 64
+  - 10
+batch_size: 16
+learning_rate: 0.01
+num_epochs: 20
+optimizer: SGD
+momentum: 0.9
+train_file: ./data/processed/train.pt
+test_file: ./data/processed/test.pt
